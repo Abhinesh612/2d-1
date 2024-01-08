@@ -10,4 +10,6 @@ void render_window_create_window(Render_State* state);
 void render_shader_set_path(Render_State* state, char* path_vert, char* path_frag);
 void render_shader_create(Render_State* state);
 
+void render_shader_array_init(Render_State* state);
+
 #endif // __RENDER_WINDOW_H

@@ -27,6 +27,7 @@ int main() {
 			}
 		}
 		render_begin(color);
+		render_draw_quad();
 		render_end();
 	}
 
